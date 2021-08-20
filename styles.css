@@ -1,0 +1,171 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul,li,a, a:hover, a:focus, a:active{
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+a:hover{
+  filter:brightness(90%) !important;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.75em;
+  margin: 0;
+  width: 1871px;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  font-size: 1.9rem;
+  line-height: 1.1;
+}
+
+ul {
+  padding: 0;
+  margin-left: 4vw;
+  list-style-type: circle;
+}
+
+li {
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  font-size: 1.2rem;
+}
+
+.li-none {
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  font-size: 1.2rem;
+}
+
+.ul-none {
+  padding: 0;
+  margin-left: 9vw;
+  list-style-type:none;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.flex-dash {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.flex-cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem;
+}
+.cover-pic {
+  margin-right: 4rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  padding: 0.4em 1em;
+  border: 0.1em solid #3e65b3;
+  border-radius: 0.38em;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.05s;
+  background-image: linear-gradient(#62a6ed, #4b78d6);
+}
+
+button:hover {
+  background-color: #fff;
+  border-radius: 8px;
+  background-image: linear-gradient(rgb(19, 131, 179), rgb(6, 143, 235));
+}
+
+.link {
+  color:rgb(6, 143, 235);
+}
+
+.email {
+  color: rgb(255, 16, 16);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b78d6;
+  background-image: linear-gradient(#3f93ec, #4b78d6);
+  color: #fff;
+  padding: 0 0 0 2rem;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 1px #2326d8;
+  opacity: 0.9;
+}
+
+.img-2 {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 gray;
+}
+
+@media (max-width: 75rem) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  li {
+    font-size: 1.05rem;
+  }
+  p {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-right: 25px;
+    display: block;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  li {
+    font-size: 1.05rem;
+  }
+  p {
+    font-size: 1.05rem;
+  }
+  .box1{
+    width: auto;
+  }
+  .box2 {
+    width: auto;
+  }
+}
